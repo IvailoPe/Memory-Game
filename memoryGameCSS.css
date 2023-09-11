@@ -1,0 +1,27 @@
+.start{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 204, 102);
+    font-family: "Lucida Console";
+    animation: blinkingStartText;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 50%;
+}
+
+body{
+    background-color: rgba(1, 46, 71, 0.5);
+}
+
+@keyframes blinkingStartText {
+    0% {
+       opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
